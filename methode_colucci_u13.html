@@ -801,7 +801,7 @@
       <div class="exo-block tact">
         <div class="exo-label tact">⏱ 20 min · Tactique</div>
         <div class="exo-title">Les couloirs — Comprendre la largeur</div>
-        <div class="exo-duration">Matériel : plots pour diviser le terrain en 3 couloirs verticaux</div>
+        <div class="exo-duration">Matériel : plots pour diviser le terrain en 3 couloirs verticaux · Espace : demi-terrain (≈50x65m)</div>
         <ul class="exo-steps">
           <li>Terrain divisé en 3 couloirs (gauche, centre, droite)</li>
           <li>Règle : max 2 joueurs par couloir en même temps</li>
@@ -1450,12 +1450,74 @@
       <li>Joue 6v6, puis discute : "qu'est-ce que vous avez dû faire pour trouver de l'espace ?"</li>
       <li>Les joueurs trouvent naturellement la solution : occuper les couloirs vides</li>
     </ul>
-    <div class="mat-chips"><span class="chip">8 plots ou chasubles</span><span class="chip">6v6</span><span class="chip">Terrain complet</span></div>
+    <div class="mat-chips"><span class="chip">8 plots ou chasubles</span><span class="chip">6v6</span><span class="chip">Demi-terrain (≈50x65m)</span></div>
     <div class="variantes">
       <div class="variantes-title">Variantes — pour faire progresser sur l'année</div>
       <div class="var-row var-easy"><span class="var-tag">Facile</span><span>3 couloirs, max 2 joueurs par couloir, jeu libre.</span></div>
       <div class="var-row var-med"><span class="var-tag">Moyen</span><span>Obligation de changer de couloir au moins une fois avant de marquer.</span></div>
       <div class="var-row var-hard"><span class="var-tag">Difficile</span><span>2 touches max + un seul joueur autorisé dans le couloir central.</span></div>
+    </div>
+
+    <div style="margin-top:16px; border-top:1px solid #1a4a28; padding-top:14px;">
+      <div class="card-title" style="font-size:15px; color:#f0c030;">🎯 Variante ludique — Couloirs à portes</div>
+      <p style="font-size:13px; color:#c0d0c4; margin-bottom:10px;">Même principe, mais la récompense devient concrète et immédiate : au lieu de simplement "ne pas avoir 3 joueurs", les joueurs visent une porte. Plus motivant pour les jeunes — une carotte plutôt qu'un interdit.</p>
+
+      <div class="terrain-wrap">
+        <svg viewBox="0 0 420 260" width="420" height="260" xmlns="http://www.w3.org/2000/svg">
+          <rect width="420" height="260" fill="#0a3d1f" rx="8"/>
+          <rect x="15" y="15" width="390" height="230" fill="none" stroke="#ffffff33" stroke-width="1.5" rx="4"/>
+          <line x1="15" y1="130" x2="405" y2="130" stroke="#ffffff33" stroke-width="1" stroke-dasharray="8,4"/>
+
+          <!-- couloirs -->
+          <line x1="145" y1="15" x2="145" y2="245" stroke="#f0c030" stroke-width="1.5" stroke-dasharray="6,4"/>
+          <line x1="275" y1="15" x2="275" y2="245" stroke="#f0c030" stroke-width="1.5" stroke-dasharray="6,4"/>
+          <text x="79"  y="30" text-anchor="middle" fill="#f0c030" font-size="11" font-weight="bold">COULOIR G</text>
+          <text x="210" y="30" text-anchor="middle" fill="#f0c030" font-size="11" font-weight="bold">CENTRE</text>
+          <text x="340" y="30" text-anchor="middle" fill="#f0c030" font-size="11" font-weight="bold">COULOIR D</text>
+
+          <!-- 3 portes, une par couloir, côté camp adverse (en haut) -->
+          <polygon points="72,42 78,54 66,54" fill="#f0861a"/>
+          <polygon points="106,42 112,54 100,54" fill="#f0861a"/>
+          <line x1="75" y1="48" x2="109" y2="48" stroke="#f0861a" stroke-width="1" stroke-dasharray="2,3"/>
+
+          <polygon points="332,42 338,54 326,54" fill="#f0861a"/>
+          <polygon points="366,42 372,54 360,54" fill="#f0861a"/>
+          <line x1="335" y1="48" x2="369" y2="48" stroke="#f0861a" stroke-width="1" stroke-dasharray="2,3"/>
+
+          <text x="92"  y="66" text-anchor="middle" fill="#f0861a" font-size="9">porte</text>
+          <text x="352" y="66" text-anchor="middle" fill="#f0861a" font-size="9">porte</text>
+
+          <!-- but adverse tout en haut -->
+          <rect x="178" y="10" width="64" height="6" fill="#fff"/>
+
+          <!-- joueur qui conduit vers la porte gauche (couloir respecté : 2 max) -->
+          <circle cx="80" cy="170" r="12" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/>
+          <circle cx="80" cy="120" r="12" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/>
+          <circle cx="210" cy="180" r="12" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/>
+          <circle cx="340" cy="175" r="12" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/>
+          <circle cx="340" cy="130" r="12" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/>
+          <circle cx="210" cy="220" r="12" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/>
+
+          <!-- ballon + conduite vers la porte gauche -->
+          <circle cx="92" cy="160" r="5.5" fill="#fff" stroke="#111"/><circle cx="92" cy="160" r="1.8" fill="#111"/>
+          <path d="M92 155 Q 90 110 90 60" stroke="#2b9ddb" stroke-width="2.5" fill="none" stroke-dasharray="0" marker-end="url(#mk-run)"/>
+
+          <!-- annotation score -->
+          <rect x="18" y="200" width="160" height="34" fill="#00000099" rx="4"/>
+          <text x="98" y="215" text-anchor="middle" fill="#f0861a" font-size="10" font-weight="bold">+1 point bonus</text>
+          <text x="98" y="228" text-anchor="middle" fill="#ffffff88" font-size="9">passe ou conduite à travers la porte</text>
+        </svg>
+        <div class="terrain-caption">2 portes (2 plots espacés de 1,5m), uniquement dans les couloirs extérieurs, côté camp adverse — le centre n'en a pas. Passer une porte en conduite ou en passe = +1 point, en plus du but classique. Ça pousse encore plus à aller chercher la largeur plutôt que le milieu.</div>
+      </div>
+
+      <ul class="exo-steps" style="margin-top:12px;">
+        <li>Ajoute 2 portes (2 plots espacés de 1,5m), uniquement dans les couloirs gauche et droit, côté camp adverse — pas de porte au centre</li>
+        <li>+1 point dès qu'une passe ou une conduite traverse une porte, à condition que le couloir respecte toujours la règle des 2 joueurs max</li>
+        <li>Le but classique reste l'objectif principal — la porte n'est qu'un bonus qui pousse à bien occuper l'espace</li>
+        <li>Compte les points à voix haute pour dynamiser : "+1 couloir gauche !"</li>
+        <li>Pour intensifier : change les portes de couloir toutes les 3 minutes pour forcer à réagir</li>
+      </ul>
+      <div class="mat-chips"><span class="chip">4 plots (portes)</span><span class="chip">+ les 8 plots couloirs</span><span class="chip">6v6</span></div>
     </div>
   </div>
 
