@@ -852,15 +852,17 @@
 
       <div class="exo-block tech">
         <div class="exo-label tech">⏱ 20 min · Technique</div>
-        <div class="exo-title">Circuit de finition — 4 ateliers</div>
-        <div class="exo-duration">Matériel : grandes cages · 4 plots repères · ballons en nombre</div>
+        <div class="exo-title">Circuit de finition — 3 postes vers un seul but</div>
+        <div class="exo-duration">Matériel : 1 grande cage + gardien · plots (poste 1 + parcours retour) · planche fixe/mur de rebond (poste 2) · toi-même ou un joueur relais (poste 3)</div>
         <ul class="exo-steps">
-          <li>Atelier 1 : tir en course depuis 15m (coup droit)</li>
-          <li>Atelier 2 : tir après contrôle orienté (ballon posé au sol, tu te retournes et tu tires)</li>
-          <li>Atelier 3 : tir en une touche sur centre latéral</li>
-          <li>Atelier 4 : face au but avec gardien — feinte puis tir</li>
-          <li>Rotation toutes les 4 min</li>
+          <li><strong>Poste 1</strong> : sprint balle au pied sur 15-20m, puis tir</li>
+          <li><strong>Poste 2</strong> : sprint puis une-deux contre la planche fixe (le rebond ne triche jamais), puis tir</li>
+          <li><strong>Poste 3</strong> : passe à toi (ou à un joueur relais), remise en une touche, puis tir</li>
+          <li>Les tirs partent en cascade — poste 1 tire, puis poste 2, puis poste 3 : jamais deux ballons en même temps vers la cage</li>
+          <li>Après son tir, chaque joueur enchaîne un petit parcours retour (2-3 plots), puis change de poste — rotation, jamais retour à la même file</li>
+          <li>Avec 16 joueurs : environ 5-6 par poste — ça tourne vite car les 3 préparations se font en parallèle, seul l'instant du tir est décalé</li>
         </ul>
+        <div class="tip"><strong>💡 Pourquoi ça marche même à un seul but</strong>Le vrai goulot d'étranglement d'un exercice de tir, ce n'est pas la cage, c'est le temps de préparation avant de tirer. Ici les 3 préparations (sprint, une-deux planche, remise coach) tournent en parallèle — seul le tir lui-même est séquencé, et un tir ne prend que 2-3 secondes. Si tu dois t'absenter du poste 3, désigne un joueur relais qui prend ta place de "mur humain" le temps de circuler ailleurs.</div>
         <button class="schema-link" onclick="goToSchema('schema-finition', this)">📐 Voir le schéma</button>
       </div>
 
@@ -900,7 +902,7 @@
       <div class="sarrow">▶</div>
     </div>
     <div class="seance-body">
-      <div class="fil-seance"><span class="fico">🧵</span><span><strong>Fil conducteur : Conserver et bouger après la passe</strong>Le mot d'ordre unique de la séance : « bouge après ta passe ». Il traverse le triangle, le 6v3 et le match.</span></div>
+      <div class="fil-seance"><span class="fico">🧵</span><span><strong>Fil conducteur : Conserver et bouger après la passe</strong>Le mot d'ordre unique de la séance : « bouge après ta passe ». Il traverse le carré, le 6v3 et le match.</span></div>
       <div class="exo-block phys">
         <div class="exo-label phys">⏱ 15 min · Échauffement</div>
         <div class="exo-title">La balle au capitaine — passes en mouvement</div>
@@ -915,12 +917,12 @@
 
       <div class="exo-block tech">
         <div class="exo-label tech">⏱ 20 min · Technique</div>
-        <div class="exo-title">Passe et soutien — le triangle mobile</div>
+        <div class="exo-title">Passe et soutien — le carré tournant</div>
         <div class="exo-duration">Matériel : plots · 1 ballon pour 3</div>
         <ul class="exo-steps">
-          <li>Trios : un porteur, deux soutiens placés en triangle</li>
-          <li>Le porteur passe puis se repositionne pour rester en triangle (jamais aligné)</li>
-          <li>Consigne clé : « toujours deux solutions de passe pour le porteur »</li>
+          <li>Trios sur 4 plots en carré (≈ 12 m), 1 ballon. Un plot reste libre</li>
+          <li>On passe au joueur suivant, puis on court occuper le plot libre : le ballon tourne dans un sens, les joueurs dans l'autre</li>
+          <li>Consigne clé : « passe, puis cours au plot vide »</li>
           <li>Variante : ajoute un défenseur passif qui gêne une des options</li>
         </ul>
         <button class="schema-link" onclick="goToSchema('schema-passe-va', this)">📐 Voir le schéma</button><button class="gk-link" onclick="goToGardien('gk-g3', this)">🧤 Gardien : plongeons par paliers (G3)</button>
@@ -1269,58 +1271,56 @@
   </div>
 
   <div class="card" id="schema-passe-va">
-    <div class="card-title">⚽ Exercice 1 — Passe & Va en triangle</div>
+    <div class="card-title">⚽ Exercice 1 — Passe & Va en carré</div>
     <div class="terrain-wrap">
-      <svg viewBox="0 0 420 250" width="420" height="250" xmlns="http://www.w3.org/2000/svg">
-        <rect width="420" height="250" fill="#0d4a22" rx="8"/>
-        <rect x="14" y="14" width="392" height="222" fill="none" stroke="#ffffff33" stroke-width="1.5" rx="4"/>
+      <svg viewBox="0 0 420 290" width="420" height="290" xmlns="http://www.w3.org/2000/svg">
+        <rect width="420" height="290" fill="#0d4a22" rx="8"/>
+        <rect x="120" y="50" width="180" height="180" fill="#0a3d1f" stroke="#ffffff33" stroke-width="1.5" stroke-dasharray="3,4"/>
+        <text x="210" y="148" text-anchor="middle" fill="#ffffff55" font-size="11">ballon ↻</text>
+        <text x="210" y="164" text-anchor="middle" fill="#ffffff44" font-size="9">les joueurs tournent à l'inverse</text>
+        <text x="342" y="143" fill="#ffffff66" font-size="10">≈ 12 m</text>
+        <!-- plots A B C D -->
+        <polygon points="120,44 127,58 113,58" fill="#f0c030"/><text x="104" y="46" fill="#f0c030" font-size="13" font-weight="bold">A</text>
+        <polygon points="300,44 307,58 293,58" fill="#f0c030"/><text x="312" y="46" fill="#f0c030" font-size="13" font-weight="bold">B</text>
+        <polygon points="300,224 307,238 293,238" fill="#f0c030"/><text x="312" y="246" fill="#f0c030" font-size="13" font-weight="bold">C</text>
+        <polygon points="120,224 127,238 113,238" fill="#f0c030"/><text x="104" y="246" fill="#f0c030" font-size="13" font-weight="bold">D</text>
 
-        <!-- arêtes du triangle (repères distance) -->
-        <line x1="96" y1="196" x2="202" y2="84" stroke="#ffffff22" stroke-width="1" stroke-dasharray="2,4"/>
-        <line x1="218" y1="84" x2="324" y2="196" stroke="#ffffff22" stroke-width="1" stroke-dasharray="2,4"/>
-        <line x1="104" y1="200" x2="316" y2="200" stroke="#ffffff22" stroke-width="1" stroke-dasharray="2,4"/>
-        <text x="138" y="146" fill="#ffffff66" font-size="10">≈ 12 m</text>
-        <text x="270" y="146" fill="#ffffff66" font-size="10">≈ 12 m</text>
-        <text x="190" y="216" fill="#ffffff66" font-size="10">≈ 12 m</text>
+        <!-- ① passe J1 -> J2 -->
+        <line x1="154" y1="76" x2="266" y2="76" stroke="#fff" stroke-width="2.5" marker-end="url(#mk-pass)"/>
+        <!-- ② J1 court en D (plot libre) -->
+        <path d="M140 94 L 140 190" stroke="#f0861a" stroke-width="2.5" fill="none" stroke-dasharray="5,4" marker-end="url(#mk-move)"/>
+        <!-- ③ passe J2 -> J3 -->
+        <line x1="280" y1="94" x2="280" y2="190" stroke="#fff" stroke-width="2.5" marker-end="url(#mk-pass)"/>
+        <!-- ④ J2 court en A (libéré par J1) -->
+        <path d="M270 56 Q 210 30 150 54" stroke="#f0861a" stroke-width="2.5" fill="none" stroke-dasharray="5,4" marker-end="url(#mk-move)"/>
 
-        <!-- plots -->
-        <polygon points="90,202 97,216 83,216" fill="#f0c030"/>
-        <polygon points="210,40 217,54 203,54" fill="#f0c030"/>
-        <polygon points="330,202 337,216 323,216" fill="#f0c030"/>
+        <!-- plot D libre au départ -->
+        <circle cx="140" cy="208" r="12" fill="none" stroke="#ffffff77" stroke-width="1.5" stroke-dasharray="3,3"/>
+        <text x="140" y="212" text-anchor="middle" fill="#ffffff99" font-size="8">libre</text>
 
-        <!-- action 1 : passe J1 -> J2 -->
-        <line x1="100" y1="186" x2="201" y2="86" stroke="#fff" stroke-width="2.5" marker-end="url(#mk-pass)"/>
-        <!-- action 2 : J1 suit sa passe (déplacement) -->
-        <path d="M80 188 Q 118 150 190 92" stroke="#f0861a" stroke-width="2.5" fill="none" stroke-dasharray="5,4" marker-end="url(#mk-move)"/>
-        <!-- action 3 : passe J2 -> J3 -->
-        <line x1="219" y1="86" x2="320" y2="186" stroke="#fff" stroke-width="2.5" marker-end="url(#mk-pass)"/>
-
-        <!-- joueurs -->
-        <circle cx="90" cy="188" r="12" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/>
-        <text x="90" y="192" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">J1</text>
-        <circle cx="210" cy="74" r="12" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/>
-        <text x="210" y="78" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">J2</text>
-        <circle cx="330" cy="188" r="12" fill="#1DB954" stroke="#fff" stroke-width="1.5"/>
-        <text x="330" y="192" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">J3</text>
-
+        <!-- joueurs au départ -->
+        <circle cx="140" cy="74" r="12" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/><text x="140" y="78" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">J1</text>
+        <circle cx="280" cy="74" r="12" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/><text x="280" y="78" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">J2</text>
+        <circle cx="280" cy="208" r="12" fill="#1DB954" stroke="#fff" stroke-width="1.5"/><text x="280" y="212" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">J3</text>
         <!-- ballon au pied de J1 -->
-        <circle cx="104" cy="180" r="5.5" fill="#fff" stroke="#111"/><circle cx="104" cy="180" r="1.8" fill="#111"/>
+        <circle cx="152" cy="86" r="5.5" fill="#fff" stroke="#111"/><circle cx="152" cy="86" r="1.8" fill="#111"/>
 
-        <!-- numéros d'action -->
-        <circle cx="148" cy="140" r="9" fill="#0a3d1f" stroke="#fff" stroke-width="1.3"/><text x="148" y="144" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">1</text>
-        <circle cx="112" cy="158" r="9" fill="#0a3d1f" stroke="#f0861a" stroke-width="1.3"/><text x="112" y="162" text-anchor="middle" fill="#f0861a" font-size="11" font-weight="bold">2</text>
-        <circle cx="272" cy="140" r="9" fill="#0a3d1f" stroke="#fff" stroke-width="1.3"/><text x="272" y="144" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">3</text>
+        <!-- numéros -->
+        <circle cx="210" cy="76" r="9" fill="#0a3d1f" stroke="#fff" stroke-width="1.3"/><text x="210" y="80" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">1</text>
+        <circle cx="140" cy="142" r="9" fill="#0a3d1f" stroke="#f0861a" stroke-width="1.3"/><text x="140" y="146" text-anchor="middle" fill="#f0861a" font-size="11" font-weight="bold">2</text>
+        <circle cx="280" cy="142" r="9" fill="#0a3d1f" stroke="#fff" stroke-width="1.3"/><text x="280" y="146" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">3</text>
+        <circle cx="210" cy="38" r="9" fill="#0a3d1f" stroke="#f0861a" stroke-width="1.3"/><text x="210" y="42" text-anchor="middle" fill="#f0861a" font-size="11" font-weight="bold">4</text>
       </svg>
-      <div class="terrain-caption">① J1 passe à J2 · ② J1 suit sa passe et monte · ③ J2 passe à J3. Rotation continue dans le sens horaire.</div>
+      <div class="terrain-caption">① J1 passe à J2 · ② J1 court au plot libre D · ③ J2 passe à J3 · ④ J2 court en A (libéré). Puis J3 passe à J1 (en D) et court en B, etc. Sans arrêt.</div>
     </div>
     <ul class="exo-steps" style="margin-top:12px;">
-      <li>3 joueurs aux sommets d'un triangle (plots A, B, C) espacés de ~12m</li>
-      <li>J1 passe à J2 puis court immédiatement vers le plot C</li>
-      <li>J2 contrôle et passe à J3 qui se déplace vers B</li>
-      <li>Le mouvement est continu — on tourne dans le sens horaire</li>
-      <li>Variante : inverser le sens de rotation après 3 min</li>
+      <li>4 plots en carré A, B, C, D (≈ 12 m de côté). 3 joueurs : J1 en A (avec le ballon), J2 en B, J3 en C. Le plot D reste libre.</li>
+      <li>Règle : on passe au joueur suivant (A→B→C→D), puis on court occuper le plot libre.</li>
+      <li>J1 passe à J2 et court en D. J2 passe à J3 et court en A. J3 passe à J1 (en D) et court en B. J1 passe à J2 (en A) et court en C… et ainsi de suite.</li>
+      <li>Le ballon tourne dans un sens, les joueurs tournent dans l'autre. Il y a toujours un plot vide.</li>
+      <li>Variante : inverser le sens après 3 min.</li>
     </ul>
-    <div class="mat-chips"><span class="chip">1 ballon / trio</span><span class="chip">3 plots</span><span class="chip">Groupes de 3</span></div>
+    <div class="mat-chips"><span class="chip">1 ballon / trio</span><span class="chip">4 plots</span><span class="chip">Groupes de 3</span></div>
     <div class="variantes">
       <div class="variantes-title">Variantes — pour faire progresser sur l'année</div>
       <div class="var-row var-easy"><span class="var-tag">Facile</span><span>Distances courtes (8 m), 2 touches autorisées, sans pression.</span></div>
@@ -1388,6 +1388,21 @@
       <div class="var-row var-easy"><span class="var-tag">Facile</span><span>6v2 dans un grand carré, touches de balle libres.</span></div>
       <div class="var-row var-med"><span class="var-tag">Moyen</span><span>5v2, maximum 2 touches par joueur.</span></div>
       <div class="var-row var-hard"><span class="var-tag">Difficile</span><span>4v2 carré réduit, 1 touche ; l'auteur ET son voisin vont au centre.</span></div>
+    </div>
+
+    <div style="margin-top:16px; border-top:1px solid #1a4a28; padding-top:14px;">
+      <div class="card-title" style="font-size:15px; color:#f0c030;">🎯 Variante ludique — Rondo Chrono, le record de l'équipe</div>
+      <p style="font-size:13px; color:#c0d0c4; margin-bottom:10px;">Le rondo classique paraît abstrait aux yeux des jeunes — "pourquoi on tourne en rond ?". La solution n'est pas de mieux l'expliquer, c'est de lui donner un enjeu concret et chronométré qu'ils peuvent battre.</p>
+
+      <ul class="exo-steps">
+        <li>Chrono en main : combien de temps le groupe garde le ballon sans le perdre ? Arrête le chrono à la moindre interception ou touche ratée</li>
+        <li>Note le temps à voix haute et affiche-le comme "record du jour" — sur l'ardoise, le tableau, ou juste de mémoire d'une séance à l'autre</li>
+        <li>Chaque groupe tente de battre SON propre record, jamais celui d'un autre groupe — la comparaison qui motive, c'est soi-même</li>
+        <li>Variante Rondo Roi : le défenseur qui intercepte devient "roi" et choisit qui va le remplacer au centre — ajoute un enjeu social que les jeunes adorent</li>
+        <li>Annonce le record de la séance en fin d'entraînement, devant tout le groupe</li>
+      </ul>
+      <div class="tip"><strong>💡 Pourquoi ça marche</strong>Un enfant qui ne voit pas l'utilité tactique d'un exercice réagit très bien à un défi chronométré et concret — c'est le même principe que le défi jonglage : la compétition contre soi-même transforme un exercice "scolaire" en jeu qu'ils redemandent.</div>
+      <div class="mat-chips"><span class="chip">1 chrono (téléphone)</span><span class="chip">Aucun matériel en plus</span></div>
     </div>
   </div>
 
@@ -1964,46 +1979,69 @@
   </div>
 
   <div class="card" id="schema-finition">
-    <div class="card-title">⚽ Exercice 12 — Circuit de finition (4 ateliers)</div>
+    <div class="card-title">⚽ Exercice 12 — Circuit de finition (3 postes vers un seul but)</div>
     <div class="terrain-wrap">
-      <svg viewBox="0 0 380 290" width="380" height="290" xmlns="http://www.w3.org/2000/svg">
-        <rect width="380" height="290" fill="#0d4a22" rx="8"/>
+      <svg viewBox="0 0 420 320" width="420" height="320" xmlns="http://www.w3.org/2000/svg">
+        <rect width="420" height="320" fill="#0d4a22" rx="8"/>
         <!-- but + surface en haut -->
-        <rect x="150" y="14" width="80" height="8" fill="#fff"/>
-        <rect x="120" y="22" width="140" height="38" fill="none" stroke="#ffffff44" stroke-width="1"/>
-        <rect x="70" y="22" width="240" height="95" fill="none" stroke="#ffffff33" stroke-width="1"/>
-        <circle cx="190" cy="40" r="11" fill="#f0c030" stroke="#fff" stroke-width="1.5"/><text x="190" y="44" text-anchor="middle" fill="#111" font-size="9" font-weight="bold">G</text>
+        <rect x="165" y="14" width="90" height="8" fill="#fff"/>
+        <rect x="140" y="22" width="140" height="38" fill="none" stroke="#ffffff44" stroke-width="1"/>
+        <circle cx="210" cy="42" r="11" fill="#f0c030" stroke="#fff" stroke-width="1.5"/><text x="210" y="46" text-anchor="middle" fill="#111" font-size="9" font-weight="bold">G</text>
 
-        <!-- atelier 1 : tir en course depuis 15m (gauche) -->
-        <circle cx="70" cy="200" r="11" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/><text x="70" y="204" text-anchor="middle" fill="#fff" font-size="8" font-weight="bold">1</text>
-        <path d="M78 192 q6 -14 18 -24" stroke="#2b9ddb" stroke-width="2.5" fill="none" marker-end="url(#mk-run)"/>
-        <line x1="100" y1="160" x2="160" y2="62" stroke="#f0c030" stroke-width="3.5" marker-end="url(#mk-shot)"/>
+        <!-- ═══ POSTE 1 : sprint balle au pied (gauche) ═══ -->
+        <text x="70" y="118" text-anchor="middle" fill="#8a9e8e" font-size="8">poste 1</text>
+        <text x="70" y="128" text-anchor="middle" fill="#8a9e8e" font-size="8">sprint + ballon</text>
+        <polygon points="70,198 76,210 64,210" fill="#f0c030"/>
+        <polygon points="70,168 76,180 64,180" fill="#f0c030"/>
+        <circle cx="70" cy="230" r="11" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/>
+        <circle cx="82" cy="222" r="5" fill="#fff" stroke="#111"/><circle cx="82" cy="222" r="1.6" fill="#111"/>
+        <path d="M75 218 Q 70 195 70 145" stroke="#2b9ddb" stroke-width="2.5" fill="none" marker-end="url(#mk-run)"/>
+        <line x1="70" y1="140" x2="165" y2="55" stroke="#f0c030" stroke-width="3.5" marker-end="url(#mk-shot)"/>
+        <circle cx="95" cy="145" r="10" fill="#0a3d1f" stroke="#fff" stroke-width="1.3"/><text x="95" y="149" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">1</text>
 
-        <!-- atelier 2 : tir après contrôle (centre-gauche) -->
-        <circle cx="150" cy="230" r="11" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/><text x="150" y="234" text-anchor="middle" fill="#fff" font-size="8" font-weight="bold">2</text>
-        <line x1="158" y1="218" x2="175" y2="70" stroke="#f0c030" stroke-width="3.5" marker-end="url(#mk-shot)"/>
+        <!-- ═══ POSTE 2 : sprint + une-deux planche (centre) ═══ -->
+        <text x="210" y="128" text-anchor="middle" fill="#8a9e8e" font-size="8">poste 2 — planche fixe</text>
+        <rect x="192" y="150" width="36" height="8" fill="#8a9e8e" rx="2"/>
+        <text x="210" y="146" text-anchor="middle" fill="#8a9e8e" font-size="7">mur rebond</text>
+        <circle cx="210" cy="235" r="11" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/>
+        <path d="M210 224 Q 210 200 200 158" stroke="#2b9ddb" stroke-width="2" fill="none" marker-end="url(#mk-pass)"/>
+        <path d="M200 158 Q 224 165 218 200" stroke="#fff" stroke-width="2" fill="none" stroke-dasharray="3,3" marker-end="url(#mk-pass)"/>
+        <line x1="216" y1="205" x2="205" y2="60" stroke="#f0c030" stroke-width="3.5" marker-end="url(#mk-shot)"/>
+        <circle cx="232" cy="180" r="10" fill="#0a3d1f" stroke="#fff" stroke-width="1.3"/><text x="232" y="184" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">2</text>
 
-        <!-- atelier 3 : tir en une touche sur centre (droite) -->
-        <circle cx="310" cy="160" r="11" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/><text x="310" y="164" text-anchor="middle" fill="#fff" font-size="8" font-weight="bold">3</text>
-        <circle cx="250" cy="200" r="11" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/>
-        <line x1="298" y1="165" x2="262" y2="195" stroke="#fff" stroke-width="2.5" marker-end="url(#mk-pass)"/>
-        <line x1="245" y1="188" x2="210" y2="66" stroke="#f0c030" stroke-width="3.5" marker-end="url(#mk-shot)"/>
+        <!-- ═══ POSTE 3 : passe-remise avec le coach (droite) ═══ -->
+        <text x="350" y="118" text-anchor="middle" fill="#8a9e8e" font-size="8">poste 3</text>
+        <text x="350" y="128" text-anchor="middle" fill="#8a9e8e" font-size="8">toi (ou relais)</text>
+        <circle cx="350" cy="165" r="11" fill="#f0861a" stroke="#fff" stroke-width="1.5"/><text x="350" y="169" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">C</text>
+        <circle cx="350" cy="235" r="11" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/>
+        <line x1="350" y1="224" x2="350" y2="180" stroke="#fff" stroke-width="2" marker-end="url(#mk-pass)"/>
+        <line x1="340" y1="180" x2="340" y2="224" stroke="#fff" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#mk-pass)"/>
+        <line x1="342" y1="220" x2="255" y2="58" stroke="#f0c030" stroke-width="3.5" marker-end="url(#mk-shot)"/>
+        <circle cx="310" cy="195" r="10" fill="#0a3d1f" stroke="#fff" stroke-width="1.3"/><text x="310" y="199" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">3</text>
 
-        <!-- atelier 4 : face au but feinte puis tir (centre) -->
-        <circle cx="210" cy="245" r="11" fill="#2b9ddb" stroke="#fff" stroke-width="1.5"/><text x="210" y="249" text-anchor="middle" fill="#fff" font-size="8" font-weight="bold">4</text>
-        <line x1="210" y1="234" x2="200" y2="74" stroke="#f0c030" stroke-width="3.5" marker-end="url(#mk-shot)"/>
+        <!-- PARCOURS RETOUR (exemple poste 1, identique aux 3) -->
+        <polygon points="45,255 51,267 39,267" fill="#f0861a"/>
+        <polygon points="65,265 71,277 59,277" fill="#f0861a"/>
+        <path d="M70 240 Q 55 250 45 258 Q 65 268 65 268" stroke="#f0861a" stroke-width="2" fill="none" stroke-dasharray="4,3" marker-end="url(#mk-move)"/>
+        <text x="35" y="290" fill="#f0861a" font-size="8" font-weight="bold">parcours retour</text>
 
-        <text x="60" y="265" fill="#ffffff88" font-size="9">① course  ② contrôle  ③ une touche  ④ feinte</text>
+        <!-- ROTATION entre postes -->
+        <path d="M90 300 Q 210 312 330 300" stroke="#8a9e8e" stroke-width="1.5" fill="none" stroke-dasharray="5,4" marker-end="url(#mk-move)"/>
+        <text x="210" y="313" text-anchor="middle" fill="#8a9e8e" font-size="8">rotation vers le poste suivant après le parcours retour</text>
+
+        <text x="210" y="88" text-anchor="middle" fill="#f0c030" font-size="10" font-weight="bold">tirs en cascade : ① → ② → ③, jamais 2 ballons ensemble</text>
       </svg>
-      <div class="terrain-caption">4 ateliers de tir autour du but : ① tir en course depuis 15 m · ② tir après contrôle orienté · ③ tir en une touche sur centre · ④ face au but, feinte puis tir. Rotation toutes les 4 min.</div>
+      <div class="terrain-caption">3 postes distincts convergent vers <strong>un seul but</strong> : ① sprint balle au pied · ② sprint + une-deux contre une planche fixe · ③ passe-remise avec le coach (ou un joueur relais). Les préparations tournent en parallèle, seul le tir est décalé en cascade. Après le tir, chacun fait le parcours retour puis change de poste par rotation.</div>
     </div>
     <ul class="exo-steps" style="margin-top:12px;">
-      <li>Installe 4 postes autour de la surface, un stock de ballons à chacun</li>
-      <li>Les joueurs tournent sur les 4 ateliers toutes les 4 min</li>
-      <li>Travaille les deux pieds — impose le pied faible sur un atelier</li>
+      <li>Poste 1 : sprint balle au pied sur 15-20m puis tir</li>
+      <li>Poste 2 : sprint puis une-deux contre une planche fixe / mur de rebond, puis tir</li>
+      <li>Poste 3 : passe au coach (ou à un joueur relais), remise en une touche, puis tir</li>
+      <li>Tirs en cascade — jamais deux ballons en même temps vers la cage</li>
+      <li>Après le tir : parcours retour (2-3 plots), puis rotation vers le poste suivant</li>
       <li>Le gardien participe : c'est aussi son entraînement</li>
     </ul>
-    <div class="mat-chips"><span class="chip">Grande cage + gardien</span><span class="chip">Ballons en nombre</span><span class="chip">4 plots repères</span></div>
+    <div class="mat-chips"><span class="chip">Grande cage + gardien</span><span class="chip">Planche fixe / mur de rebond</span><span class="chip">Plots (poste 1 + parcours retour)</span><span class="chip">Toi ou un joueur relais (poste 3)</span></div>
     <div class="variantes">
       <div class="variantes-title">Variantes — pour faire progresser sur l'année</div>
       <div class="var-row var-easy"><span class="var-tag">Facile</span><span>Ballon arrêté, sans gardien : on travaille le geste de frappe.</span></div>
@@ -2273,7 +2311,7 @@
         <tr><td>ST1 · VEN<br>Conduite &amp; dribble</td><td class="gk-avec">Échauffement slalom (excellent pour ses appuis) · match dans le but</td><td class="gk-spe">Pendant le 1v1 et les portes : appuis &amp; déplacements (G2)</td></tr>
         <tr><td>ST2 · MAR<br>Foot à 8</td><td class="gk-avec">Rondo (comme joueur) · match 8v8 dans le but</td><td class="gk-spe">Pendant le jeu des couloirs : jeu au pied &amp; relances (G4)</td></tr>
         <tr class="gk-or"><td>ST2 · VEN<br>Finition</td><td class="gk-avec">TOUTE LA SÉANCE — c'est sa séance en or : arrêts en continu sur les 4 ateliers, le 2v1 et le match</td><td class="gk-spe">Aucun — il est indispensable au groupe</td></tr>
-        <tr><td>ST3 · MAR<br>Conservation</td><td class="gk-avec">Rondo et 6v3 comme joueur de champ (jeu au pied) · match</td><td class="gk-spe">Pendant le triangle mobile : plongeons par paliers (G3)</td></tr>
+        <tr><td>ST3 · MAR<br>Conservation</td><td class="gk-avec">Rondo et 6v3 comme joueur de champ (jeu au pied) · match</td><td class="gk-spe">Pendant le carré tournant : plongeons par paliers (G3)</td></tr>
         <tr><td>ST3 · VEN<br>Défense collective</td><td class="gk-avec">Échauffement · il COMMANDE la ligne à la voix pendant le rideau · match</td><td class="gk-spe">Pendant la mise en place du rideau (sans attaquants) : prises de balle (G1)</td></tr>
         <tr><td>ST4 · MAR<br>Transitions</td><td class="gk-avec">Échauffement réaction (parfait pour lui) · 3v2 avec gardien · match — quasi toute la séance</td><td class="gk-spe">Option 10 min avant le 3v2 : sorties aériennes (G5)</td></tr>
         <tr><td>ST4 · VEN<br>Jonglage &amp; duels</td><td class="gk-avec">Duel corps à corps · match dans le but</td><td class="gk-spe">Pendant le défi jonglage : sorties aériennes (G5) avec son serveur</td></tr>
@@ -2444,7 +2482,7 @@
         <label>Technique</label>
         <select id="sel-technique" onchange="fillRow('technique', this.value)">
           <option value="">—</option>
-          <option value="passe-va">Passe &amp; va en triangle</option>
+          <option value="passe-va">Passe &amp; va en carré</option>
           <option value="slalom">Slalom de conduite</option>
           <option value="1v1">Dribble 1v1 en couloir</option>
           <option value="finition">Circuit de finition</option>
@@ -2515,7 +2553,7 @@
         <tr data-phase="technique">
           <td class="tcol">20'</td>
           <td class="pcol">Technique</td>
-          <td class="fill editable c-contenu" contenteditable="true" data-ph="ex : passe & va en triangle"></td>
+          <td class="fill editable c-contenu" contenteditable="true" data-ph="ex : passe & va en carré"></td>
           <td class="fill editable c-mat" contenteditable="true" data-ph=""></td>
           <td class="fill editable c-consigne" contenteditable="true" data-ph="bouge après ta passe"></td>
         </tr>
@@ -2658,7 +2696,7 @@
 
   // Données des exercices + matches : { contenu, matériel, consigne clé }
   var DATA = {
-    'passe-va':     { name: 'Passe & va en triangle',      mat: '3 plots, 1 ballon/trio',     consigne: 'Bouge après ta passe' },
+    'passe-va':     { name: 'Passe & va en carré',      mat: '3 plots, 1 ballon/trio',     consigne: 'Bouge après ta passe' },
     'rondo':        { name: 'Rondo 5v2',                   mat: '4 plots, 1 ballon',          consigne: 'Oriente-toi avant de recevoir' },
     'couloirs':     { name: 'Jeu des couloirs',            mat: '8 plots/chasubles',          consigne: 'Occupe toute la largeur' },
     'pressing':     { name: 'Pressing haut',               mat: 'plots zone, chasubles',      consigne: 'Presse au signal, coupe les passes' },
